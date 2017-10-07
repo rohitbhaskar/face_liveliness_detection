@@ -1,0 +1,47 @@
+<div id="register" class="animate form">
+  <section class="login_content">
+  {{registerError}}
+    <form name="registerForm" ng-submit="addNewUser()" novalidate>
+      <h1>Create Account</h1>
+      
+      <div>
+        <input name="username" type="text" class="form-control" placeholder="Username" required="required" ng-model="newUser.username"/>
+      </div>
+      <div>
+        <input name="password" type="password" class="form-control" placeholder="Password" required="required" ng-model="newUser.password"/>
+      </div>
+      <div>
+        <input name="company_id" type="number" class="form-control" placeholder="CompanyId" required="required" ng-model="newUser.company_id"/>
+      </div><br>
+      <div>
+        <input name="contact" type="number" class="form-control" placeholder="Contact Number" required="required" ng-model="newUser.contact"/>
+      </div><br>
+      <div>
+        <input name="email_id" type="email" class="form-control" placeholder="Email" required="required" ng-model="newUser.email_id"/>
+      </div>
+      <div>
+        <input name="inverter_id" type="text" class="form-control" placeholder="Inverter Id" required="required" ng-model="newUser.inverter_id"/>
+      </div><br>
+
+      <div>
+        <button class="btn btn-default submit" type="submit" name="Register" ng-disabled="registerForm.$invalid">Register</button>
+        <a class="reset_pass" href="#">Lost your password?</a>
+      </div>
+
+      <div class="clearfix"></div>
+
+      <div class="separator">
+        <p class="change_link">Already a member ?
+          <a href="#!/signin" class="to_register"> Log in </a>
+        </p>
+
+        <div class="clearfix"></div>
+        <br />
+
+        <div>
+          <h1><i class="fa fa-area-chart"></i> Pure Regression</h1>
+        </div>
+      </div>
+    </form>
+  </section>
+</div>

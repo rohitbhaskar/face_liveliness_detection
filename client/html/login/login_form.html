@@ -1,0 +1,34 @@
+<div class="animate form login_form">
+  <section class="login_content">
+  {{error_mssg}}
+    <form name="loginForm" ng-submit="authenticateUser()" novalidate>
+      <h1>Login Form</h1>
+      <div>
+        <input name="login_username" type="text" class="form-control" placeholder="Username" required ng-model="login_username"/>
+      </div>
+      <div>
+        <input name="login_password" type="password" class="form-control" placeholder="Password" required ng-model="login_password"/>
+      </div>
+      <div>
+        <button class="btn btn-default submit" type="submit" name="LogIn" ng-disabled="loginForm.$invalid">Log In</button>
+        <a class="reset_pass" href="#">Lost your password?</a>
+      </div>
+
+      <div class="clearfix"></div>
+
+      <div class="separator">
+        <p class="change_link">New to site?
+          <a href="#!/signup" class="to_register"> Create Account </a>
+        </p>
+
+        <div class="clearfix"></div>
+        <br />
+
+        <div>
+          <h1><i class="fa fa-area-chart"></i> L&T Grid Inverter</h1>
+          <p>©2016 All Rights Reserved.L&T Privacy and Terms</p>
+        </div>
+      </div>
+    </form>
+  </section>
+</div>
