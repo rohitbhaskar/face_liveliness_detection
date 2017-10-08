@@ -2,9 +2,9 @@ var MainModule = angular.module("MainModule");
 
 
 /////////////////////  Inverter Selection  //////////////////////
-MainModule.controller("InverterCtrl", function($scope, $http, $location, currentUserService, currentInverterService, inverterDataService){
+MainModule.controller("InverterCtrl", function($scope, $http, $location, currentUserService){
 	$scope.currentUser = currentUserService.getUserDetails();
-	$scope.currentInverter = currentInverterService.getInverterDetails();
+	//$scope.currentInverter = currentInverterService.getInverterDetails();
 	$scope.allCompanyInverters = [];
 
 	setTimeout(function(){
@@ -14,7 +14,7 @@ MainModule.controller("InverterCtrl", function($scope, $http, $location, current
 	$http({
       method: 'GET',
       url: 'http://localhost:3000/inverters',
-      params: {company_id: $scope.currentInverter.company_id}
+      //params: {company_id: $scope.currentInverter.company_id}
     }).then(function successCallback(response) {
       console.log(response);
       $scope.allCompanyInverters = response.data;

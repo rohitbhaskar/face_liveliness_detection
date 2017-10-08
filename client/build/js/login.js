@@ -36,7 +36,6 @@ LoginModule.controller('LoginCtrl', function($scope, $http){
       var username = $scope.login_username;
       var password = $scope.login_password;
       user[username] = password;
-      console.log(JSON.stringify(login_credentials[i]) === JSON.stringify(user));
       if(JSON.stringify(login_credentials[i]) == JSON.stringify(user)){
         loggedIn();
       }

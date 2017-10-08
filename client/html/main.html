@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>L&T Cloud Platform | </title>
+    <title>Pure Regression | </title>
 
 
     <!-- Bootstrap -->
@@ -25,7 +25,8 @@
     <link href="../vendors/jqvmap/dist/jqvmap.min.css" rel="stylesheet"/>
 
     <!-- AngularJS Material CSS using GitCDN to load directly from `bower-material/master` -->
-    <link rel="stylesheet" href="https://gitcdn.link/repo/angular/bower-material/master/angular-material.css">
+    <!--
+    <link rel="stylesheet" href="https://gitcdn.link/repo/angular/bower-material/master/angular-material.css">-->
 
     <!-- Custom Theme Style -->
     <link href="../build/css/custom.min.css" rel="stylesheet">
@@ -42,7 +43,7 @@
         <div class="col-md-3 left_col">
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
-              <a href="index.html" class="site_title"><i class="fa fa-cloud"></i> <span>L&T Cloud</span></a>
+              <a href="index.html" class="site_title"><i class="fa fa-cloud"></i> <span>Pure Regression</span></a>
             </div>
 
             <div class="clearfix"></div>
@@ -71,19 +72,19 @@
                       <li><a href="main.html#!/dashboard">Dashboard</a></li>
                     </ul>
                   </li>
-                  <li><a><i class="fa fa-bolt"></i> Inverters <span class="fa fa-chevron-down"></span></a>
+                  <li><a><i class="fa fa-bolt"></i> Transactions <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="main.html#!/inverters">Choose an Inverter</a></li>
-                      <li><a href="main.html#!/inverters">Advanced Config</a></li>
-                      <li><a href="main.html#!/addInverter">Add New Inverter</a></li>
+                      <li><a href="main.html#!/transactions">Make a Transaction</a></li>
+                      <li><a href="main.html#!/transactions">Advanced Config</a></li>
+                      <li><a href="main.html#!/transactions">Add New Inverter</a></li>
                       <li><a href="form_wizards.html">Form Wizard</a></li>
                       <li><a href="form_upload.html">Form Upload</a></li>
                       <li><a href="form_buttons.html">Form Buttons</a></li>
                     </ul>
                   </li>
-                  <li><a><i class="fa fa-user"></i> Users <span class="fa fa-chevron-down"></span></a>
+                  <li><a><i class="fa fa-user"></i> Account <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="main.html#!/users">All Users</a></li>
+                      <li><a href="main.html#!/users">Create New Account</a></li>
                       <li><a href="main.html#!/users">Currently Online</a></li>
                       <li><a href="main.html#!/users">All Chats</a></li>
                       <li><a href="main.html#!/users">View Schedule</a></li>
@@ -273,6 +274,9 @@
     <script src="../vendors/fastclick/lib/fastclick.js"></script>
     <!-- NProgress -->
     <script src="../vendors/nprogress/nprogress.js"></script>
+    <!-- jQuery Smart Wizard -->
+    <script src="../vendors/jQuery-Smart-Wizard/js/jquery.smartWizard.js"></script>
+
     <!-- Chart.js -->
     <script src="../vendors/Chart.js/dist/Chart.min.js"></script>
     <!-- gauge.js -->
@@ -285,24 +289,24 @@
     <!-- Skycons -->
     <script src="../vendors/skycons/skycons.js"></script>
 
-    <!-- Flot -->
+    <!--
     <script src="../vendors/Flot/jquery.flot.js"></script>
     <script src="../vendors/Flot/jquery.flot.pie.js"></script>
     <script src="../vendors/Flot/jquery.flot.time.js"></script>
     <script src="../vendors/Flot/jquery.flot.stack.js"></script>
     <script src="../vendors/Flot/jquery.flot.resize.js"></script>
-    <!-- Flot plugins -->
     <script src="../vendors/flot.orderbars/js/jquery.flot.orderBars.js"></script>
     <script src="../vendors/flot-spline/js/jquery.flot.spline.min.js"></script>
-    <script src="../vendors/flot.curvedlines/curvedLines.js"></script>
+    <script src="../vendors/flot.curvedlines/curvedLines.js"></script> -->
 
     <!-- DateJS -->
     <script src="../vendors/DateJS/build/date.js"></script>
 
     <!-- JQVMap -->
+    <!--
     <script src="../vendors/jqvmap/dist/jquery.vmap.js"></script>
     <script src="../vendors/jqvmap/dist/maps/jquery.vmap.world.js"></script>
-    <script src="../vendors/jqvmap/examples/js/jquery.vmap.sampledata.js"></script>
+    <script src="../vendors/jqvmap/examples/js/jquery.vmap.sampledata.js"></script> -->
 
     <!-- bootstrap-daterangepicker -->
     <script src="../vendors/moment/min/moment.min.js"></script></script>
@@ -312,30 +316,27 @@
     <script type="text/javascript" src="../vendors/angular/angular.min.js"></script>
 
     <!-- Angular Chartjs -->
-    <script src="../vendors/angular-chart.js/angular-chart.min.js"></script>
+    <!--
+    <script src="../vendors/angular-chart.js/angular-chart.min.js"></script>-->
 
     <!-- Angular Route -->
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.js"></script>
 
     <!-- Angular Material Dependencies -->
+    <!--
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-animate.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-aria.min.js"></script>
 
-    <!-- AngularJS Material Javascript now available via Google CDN; version 1.0.7 used here -->
-    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.7/angular-material.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.7/angular-material.min.js"></script>-->
 
     <!-- Angular Module -->
     <script type="text/javascript" src="../build/js/app.js"></script>
-    <script type="text/javascript" src="../build/js/controllers/dashboardCtrl.js"></script>
     <script type="text/javascript" src="../build/js/controllers/usersCtrl.js"></script>
+    <script type="text/javascript" src="../build/js/controllers/transactionsCtrl.js"></script>
     <script type="text/javascript" src="../build/js/controllers/invertersCtrl.js"></script>
-    <script type="text/javascript" src="../build/js/controllers/predictCtrl.js"></script>
 
     <!-- Angular Services -->
     <script type="text/javascript" src="../build/js/services/currentUserService.js"></script>
-    <script type="text/javascript" src="../build/js/services/currentInverterService.js"></script>
-    <script type="text/javascript" src="../build/js/services/inverterDataService.js"></script>
-    <script type="text/javascript" src="../build/js/services/currentDataService.js"></script>
 
     <!-- Custom Theme Scripts -->
     <script src="../build/js/custom.min.js"></script>

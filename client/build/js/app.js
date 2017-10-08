@@ -1,22 +1,25 @@
 (function(){
 
 /////////////////////  Main Module  //////////////////////
-var MainModule = angular.module("MainModule", ['ngMaterial', 'ngRoute', 'chart.js']);
+var MainModule = angular.module("MainModule", ['ngRoute']);
 
-MainModule.config(function($mdThemingProvider, $routeProvider) {
-  $mdThemingProvider.theme('default')
+
+MainModule.config(function($routeProvider) {
+  /*$mdThemingProvider.theme('default')
     .primaryPalette('blue-grey')
-    .accentPalette('teal');
+    .accentPalette('teal'); */
 
 // Main Routing //
   $routeProvider
 	    .when("/", {
 	        templateUrl : "transactions.html",
-	        controller: "TransactionCtrl"
+	        controller: "TransactionCtrl",
+	        controllerAs: "tc"
 	    })
 	    .when("/transactions", {
 	        templateUrl : "transactions.html",
-	        controller: "TransactionCtrl"
+	        controller: "TransactionCtrl",
+	        controllerAs: "tc"
 	    })
 	    .when("/users", {
 	        templateUrl : "users.html",
@@ -24,7 +27,7 @@ MainModule.config(function($mdThemingProvider, $routeProvider) {
 	    })
 	    .when("/dashboard", {
 	        templateUrl : "dashboard.html",
-	        controller: "DashboardCtrl",
+	        controller: "InverterCtrl",
           controllerAs: "dashboard"
 	    })
 	    .when("/addInverter", {
@@ -33,7 +36,7 @@ MainModule.config(function($mdThemingProvider, $routeProvider) {
 	    })
       .when("/prediction", {
           templateUrl : "predicted_data.html",
-          controller: "PredictCtrl"
+          controller: "InverterCtrl"
       })
 });
 
