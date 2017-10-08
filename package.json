@@ -4,7 +4,7 @@
   "description": "pure regression",
   "main": "/client/index.js",
   "scripts": {
-    "start": "/client/index.js",
+    "start": "client/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
