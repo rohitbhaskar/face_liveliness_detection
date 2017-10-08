@@ -109,6 +109,5 @@ MainModule.controller("TransactionCtrl", function($scope, $http, $location, $tim
 		currentTransactionService.updateTxDetails(self.buyerDetails, self.sellerDetails);
 		$timeout(function(){$location.path('/dashboard');}, 1000);
 	}
-
 	
 });
