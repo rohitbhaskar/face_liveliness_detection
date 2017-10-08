@@ -1,106 +1,124 @@
 <!-- page content -->
-<div class="right_col" role="main" ng-init="getModuleData()">
-<!-- 
-{{graph_details.selected_attribute}}
-<br>
-{{selected_modules}}
-<br>
-{{data}}
-<br>-->
-Start and end Dates {{startDate}}, {{endDate}}
-<!--<br>
-Temp {{temp}}
-<br>
-Temp2 {{temp2}} -->
-  <!-- Main Graph -->
-  <div class="row">
-    <div class="col-md-12 col-sm-12 col-xs-12">
-      <div class="x_panel">
-        <div class="x_title row">
-          <div class="col-md-6">
-            <h2>{{graph_details.selected_attribute}}<small>view details</small></h2>
-          </div>
-          <div class="col-md-6">
-            <div class="filter">
-              <div id="reportrange" class="pull-right" style="background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #ccc">
-                <i class="glyphicon glyphicon-calendar fa fa-calendar"></i>
-                <span>December 30, 2014 - January 28, 2015</span> <b class="caret"></b>
-              </div>
-            </div>
-          </div>
-          <div class="clearfix"></div>
-        </div>
-        <div class="x_content">
-          <div class="col-md-1" ng-hide="dataQuerying">
-            <div>
-              <md-radio-group ng-model="graph_details.selected_attribute">
-                <div style="margin-top: 5px; padding-bottom: 20px"><span>Select Attribute to Display</span></div>
-                <div ng-repeat="attribute in all_attributes">
-                  <md-radio-button value="{{attribute.value}}" class="md-primary" ng-click="chooseAttribute(attribute.value)" ng-disabled="{{attribute.btn_disable}}">{{attribute.name}}</md-radio-button>
-                </div>
-              </md-radio-group>
-            </div>
-            <div>
-              <div style="margin-top: 5px; padding-bottom: 20px; padding-top: 30px"><span>Select Modules to Display</span></div>
-              <div ng-repeat="module in all_modules">
-                <md-checkbox ng-checked="exists(module.value)" ng-click="toggle(module.value)" class="md-primary">
-                  {{ module.name }}
-                </md-checkbox>
-              </div>
-            </div>
-          </div>
+<div class="right_col" role="main">
+  <div class="">
+    <div class="page-title">
+      <div class="title_left">
+        <h3>Dashboard</h3>
+      </div>
 
-          <!--<canvas id="dashboard_chart"></canvas>-->
-          <div class="col-md-11">
-            <canvas id="line" class="chart chart-line" chart-data="data" chart-labels="labels" chart-series="series" chart-options="options" chart-dataset-override="datasetOverride" chart-click="onClick"></canvas>
+      <div class="title_right">
+        <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search for...">
+            <span class="input-group-btn">
+              <button class="btn btn-default" type="button">Go!</button>
+            </span>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <br />
 
-  <div class="row">
-    <div class="col-md-4 col-sm-4 col-xs-12" ng-repeat="module in allEvents">
-      <div class="x_panel">
-        <div class="x_title">
-          <h2>Module {{$index + 1}}<small>Event Log</small></h2>
-          <ul class="nav navbar-right panel_toolbox">
-            <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="">Settings 1</a>
-                </li>
-                <li><a href="">Settings 2</a>
-                </li>
-              </ul>
-            </li>
-            <li><a class="close-link"><i class="fa fa-close"></i></a>
-            </li>
-          </ul>
-          <div class="clearfix"></div>
+
+    <div class="clearfix"></div>
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        
+        <div class="x_panel">
+          <div class="x_title">
+            <h2>Curent Transaction</h2>
+            <div class="clearfix"></div>
+          </div>
+          <div class="x_content">
+            <h4>Sender : <span> {{dc.buyerDetails.Debit_Acct_Name}}</span></h4>
+            <h4>Receiver: <span> {{dc.sellerDetails.Ben_Name}}</span></h4>
+            <h4>Amount : <span> {{dc.sellerDetails.Amount}}</span></h4>
+            <h4>Transaction Id : <span> 6591843351</span></h4>
+            <span class="label label-warning">In Progress</span>
+            </br></br>
+            <button class="btn btn-primary" ng-click="dc.seeInvoice()"> View Invoice</button>
+          </div>
         </div>
-        <div class="x_content">
-          <div class="dashboard-widget-content">
 
-            <ul class="list-unstyled timeline widget">
+      </div>
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="x_panel">
+          <div class="x_title">
+            <h2>Previous Transactions</h2>
+            <div class="clearfix"></div>
+          </div>
+          <div class="x_content">
+            <div class="dashboard-widget-content">
 
-              <li ng-repeat="event in module">
-                <div class="block">
-                  <div class="block_content">
-                    <h2 class="title">{{event.Message}}</h2>
-                    <div class="byline">
-                      <span>{{event.Date}}</span> , <span>{{event.Time}}</span>
+              <ul class="list-unstyled timeline widget">
+                <li>
+                  <div class="block">
+                    <div class="block_content">
+                    <h2 class="title"></h2>
+                      <h4>Sender : <span> Padurang </span></h4>
+                      <h4>Receiver: <span> Ajinkya</span></h4>
+                      <h4>Amount : <span> 20000</span></h4>
+                      <h4>Transaction Id : <span> 1291843351</span></h4>            
+                      <div class="byline">
+                        <span>3 hour ago</span> by <a>Facilitator</a>
+                      </div>
+                      <span class="label label-success">Completed</span>
                     </div>
-                    <p class="excerpt" ng-show="event.Event == 0">Error occured</p>
-                    <p class="excerpt" ng-show="event.Event == 2">Error resolved</p>
                   </div>
-                </div>
-              </li>
-              
-            </ul>
+                </li>
+                
+
+                <li>
+                  <div class="block">
+                    <div class="block_content">
+                    <h2 class="title"></h2>
+                      <h4>Sender : <span> Manoj </span></h4>
+                      <h4>Receiver: <span> Gopal</span></h4>
+                      <h4>Amount : <span> 8750</span></h4>
+                      <h4>Transaction Id : <span> 6245198427</span></h4>            
+                      <div class="byline">
+                        <span>4 hour ago</span> by <a>Facilitator</a>
+                      </div>
+                      <span class="label label-success">Completed</span>
+                    </div>
+                  </div>
+                </li>
+
+
+                <li>
+                  <div class="block">
+                    <div class="block_content">
+                    <h2 class="title"></h2>
+                      <h4>Sender : <span> Krishna </span></h4>
+                      <h4>Receiver: <span> Omkar</span></h4>
+                      <h4>Amount : <span> 33500</span></h4>
+                      <h4>Transaction Id : <span> 2892534190</span></h4>            
+                      <div class="byline">
+                        <span>5 hour ago</span> by <a>Facilitator</a>
+                      </div>
+                      <span class="label label-success">Completed</span>
+                    </div>
+                  </div>
+                </li>
+
+
+                <li>
+                  <div class="block">
+                    <div class="block_content">
+                    <h2 class="title"></h2>
+                      <h4>Sender : <span> Ramlal </span></h4>
+                      <h4>Receiver: <span> Abbas</span></h4>
+                      <h4>Amount : <span> 350</span></h4>
+                      <h4>Transaction Id : <span> 8362891525</span></h4>            
+                      <div class="byline">
+                        <span>3 hour ago</span> by <a>Facilitator</a>
+                      </div>
+                      <span class="label label-success">Completed</span>
+                    </div>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -108,4 +126,3 @@ Temp2 {{temp2}} -->
   </div>
 </div>
 <!-- /page content -->
-

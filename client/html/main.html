@@ -75,22 +75,14 @@
                   <li><a><i class="fa fa-bolt"></i> Transactions <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="main.html#!/transactions">Make a Transaction</a></li>
-                      <li><a href="main.html#!/transactions">Advanced Config</a></li>
-                      <li><a href="main.html#!/transactions">Add New Inverter</a></li>
-                      <li><a href="form_wizards.html">Form Wizard</a></li>
-                      <li><a href="form_upload.html">Form Upload</a></li>
-                      <li><a href="form_buttons.html">Form Buttons</a></li>
+                      <li><a href="main.html#!/transactions">Advanced Transaction</a></li>
+                      <li><a href="main.html#!/transactions">Small Transaction</a></li>
                     </ul>
                   </li>
                   <li><a><i class="fa fa-user"></i> Account <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="main.html#!/users">Create New Account</a></li>
-                      <li><a href="main.html#!/users">Currently Online</a></li>
-                      <li><a href="main.html#!/users">All Chats</a></li>
-                      <li><a href="main.html#!/users">View Schedule</a></li>
-                      <li><a href="main.html#!/users">Personal Notes</a></li>
-                      <li><a href="main.html#!/users">Message Inbox</a></li>
-                      <li><a href="main.html#!/users">Calendar</a></li>
+                      <li><a href="main.html#!/account">Create New Account</a></li>
+                      <li><a href="main.html#!/account">Current Accounts</a></li>
                     </ul>
                   </li>
                   <li><a><i class="fa fa-table"></i> Logs <span class="fa fa-chevron-down"></span></a>
@@ -99,37 +91,8 @@
                       <li><a href="main.html#!/logs">Alerts</a></li>
                     </ul>
                   </li>
-                  <li><a><i class="fa fa-bar-chart-o"></i> Data Visualization <span class="fa fa-chevron-down"></span></a>
-                    <ul class="nav child_menu">
-                      <li><a href="main.html#!/graphs">Modules</a></li>
-                      <li><a href="main.html#!/graphs">Complete Inverter</a></li>
-                      <li><a href="main.html#!/graphs">Yearly Plots</a></li>
-                      <li><a href="main.html#!/graphs">Sub-Graphs</a></li>
-                      <li><a href="main.html#!/graphs">Alerts List</a></li>
-                    </ul>
-                  </li>
                 </ul>
               </div>
-              <div class="menu_section">
-                <h3>Additional Features</h3>
-                <ul class="nav side-menu">
-                  <li><a><i class="fa fa-exchange"></i> Compare Inverters <span class="fa fa-chevron-down"></span></a>
-                    <ul class="nav child_menu">
-                      <li><a href="main.html#!/compare">Graphical</a></li>
-                      <li><a href="main.html#!/compare">Tabular</a></li>
-                      <li><a href="main.html#!/compare">Efficiency</a></li>
-                    </ul>
-                  </li>
-                  <li><a><i class="fa fa-line-chart"></i> Analytics <span class="fa fa-chevron-down"></span></a>
-                    <ul class="nav child_menu">
-                      <li><a href="main.html#!/prediction">Predicted Data</a></li>
-                      <li><a href="page_404.html">404 Error</a></li>
-                    </ul>
-                  </li>                 
-                  <li><a href="javascript:void(0)"><i class="fa fa-laptop"></i> Fault Prediction <span class="label label-success pull-right">Coming Soon</span></a></li>
-                </ul>
-              </div>
-
             </div>
             <!-- /sidebar menu -->
 
@@ -333,10 +296,11 @@
     <script type="text/javascript" src="../build/js/app.js"></script>
     <script type="text/javascript" src="../build/js/controllers/usersCtrl.js"></script>
     <script type="text/javascript" src="../build/js/controllers/transactionsCtrl.js"></script>
-    <script type="text/javascript" src="../build/js/controllers/invertersCtrl.js"></script>
+    <script type="text/javascript" src="../build/js/controllers/dashboardCtrl.js"></script>
 
     <!-- Angular Services -->
     <script type="text/javascript" src="../build/js/services/currentUserService.js"></script>
+    <script type="text/javascript" src="../build/js/services/currentTransactionService.js"></script>
 
     <!-- Custom Theme Scripts -->
     <script src="../build/js/custom.min.js"></script>

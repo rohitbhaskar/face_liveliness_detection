@@ -27,16 +27,16 @@ MainModule.config(function($routeProvider) {
 	    })
 	    .when("/dashboard", {
 	        templateUrl : "dashboard.html",
-	        controller: "InverterCtrl",
-          controllerAs: "dashboard"
+	        controller: "DashboardCtrl",
+          controllerAs: "dc"
 	    })
-	    .when("/addInverter", {
-	        templateUrl : "add_inverter.html",
-	        controller: "InverterCtrl"
+	    .when("/account", {
+	        templateUrl : "account.html",
+	        controller: "DashboardCtrl",
+	        controllerAs: "dc"
 	    })
-      .when("/prediction", {
-          templateUrl : "predicted_data.html",
-          controller: "InverterCtrl"
+      .when("/invoice", {
+          templateUrl : "invoice.html"
       })
 });
 
@@ -52,14 +52,6 @@ MainModule.controller("MainCtrl", function($scope, $http, currentUserService){
   delete $scope.currentUser.password;
   currentUserService.updateUserDetails($scope.currentUser)
 });
-
-
-
-
-/////////////////////  Add New Inverter  //////////////////////
-MainModule.controller("NewInverterCtrl",["$scope", function($scope){
-	
-}]);
 
 
 })();

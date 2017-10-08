@@ -1,6 +1,6 @@
 var MainModule = angular.module("MainModule");
 
-MainModule.controller("TransactionCtrl", function($scope, $http){
+MainModule.controller("TransactionCtrl", function($scope, $http, $location, $timeout, currentTransactionService){
 	var self = this;
 	
 	$scope.transaction_id = 0;
@@ -105,7 +105,10 @@ MainModule.controller("TransactionCtrl", function($scope, $http){
 	}
 
 
-
+	self.completeTransaction = function(){
+		currentTransactionService.updateTxDetails(self.buyerDetails, self.sellerDetails);
+		$timeout(function(){$location.path('/dashboard');}, 1000);
+	}
 
 	
 });
