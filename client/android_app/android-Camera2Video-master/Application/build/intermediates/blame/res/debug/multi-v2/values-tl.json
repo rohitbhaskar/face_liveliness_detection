@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tl/values-tl.xml",
+            "outputFile": "/home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/face_liveliness_detection/client/android_app/android-Camera2Video-master/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tl/values-tl.xml",
             "map": [
                 {
                     "source": "/home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/d92089135e3d416679479b0330a6430e/res/values-tl/values-tl.xml",

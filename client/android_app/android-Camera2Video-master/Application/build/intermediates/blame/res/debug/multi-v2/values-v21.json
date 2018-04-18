@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
+            "outputFile": "/home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/face_liveliness_detection/client/android_app/android-Camera2Video-master/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
                     "source": "/home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/a120a46b1f4ade929338233efb853eed/res/values-v21/values-v21.xml",
@@ -20,25 +20,6 @@
                         "endLines": "2,3,4,5,263,264,271,275,283,288",
                         "endColumns": "103,63,66,63,115,125,125,127,12,12",
                         "endOffsets": "154,218,285,349,19376,19502,19959,20255,20675,21013"
-                    }
-                },
-                {
-                    "source": "/home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/res/values-v21/base-template-styles.xml",
-                    "from": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "677",
-                        "endLines": "21",
-                        "endColumns": "12",
-                        "endOffsets": "753"
-                    },
-                    "to": {
-                        "startLines": "279",
-                        "startColumns": "4",
-                        "startOffsets": "20427",
-                        "endLines": "280",
-                        "endColumns": "12",
-                        "endOffsets": "20503"
                     }
                 },
                 {
@@ -77,6 +58,25 @@
                         "endLines": "267,270,274,278",
                         "endColumns": "12,12,12,12",
                         "endOffsets": "19670,19833,20127,20422"
+                    }
+                },
+                {
+                    "source": "/home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/face_liveliness_detection/client/android_app/android-Camera2Video-master/Application/src/main/res/values-v21/base-template-styles.xml",
+                    "from": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "677",
+                        "endLines": "21",
+                        "endColumns": "12",
+                        "endOffsets": "753"
+                    },
+                    "to": {
+                        "startLines": "279",
+                        "startColumns": "4",
+                        "startOffsets": "20427",
+                        "endLines": "280",
+                        "endColumns": "12",
+                        "endOffsets": "20503"
                     }
                 }
             ]
