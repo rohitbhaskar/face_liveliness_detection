@@ -1,0 +1,107 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:17:1-43:12
+INJECTED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:17:1-43:12
+INJECTED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:17:1-43:12
+MERGED from [com.android.support:support-v13:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/433137c21ca95bc93f2462f248a4ba5f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/902180f8c9501aae1d72ab7e7abd8910/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/7dfd3c8b85ccf3fa3bf78d4b2dedfd1b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/d92089135e3d416679479b0330a6430e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/8328795e13880dc5a9172f9e4622857c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/866bc6713deaa689564a6668971f1fb5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/399dec118cf77f9e637d5700d40f3f87/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/ff2b1e96527315111586c0e8344629ac/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/3f109cc9e30ba15912c74d619595bc6b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/e984e32e314992618279faaa6e826ac5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/a120a46b1f4ade929338233efb853eed/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/cb4d240c712aca56bce8328373c852d4/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:17:1-43:12
+INJECTED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:17:1-43:12
+	package
+		ADDED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:18:5-47
+	android:versionName
+		ADDED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:20:5-30
+		INJECTED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:17:11-69
+	android:versionCode
+		ADDED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:19:5-28
+		INJECTED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:24:5-64
+	android:name
+		ADDED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:24:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:25:5-70
+	android:name
+		ADDED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:25:22-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:26:5-80
+	android:name
+		ADDED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:26:22-78
+application
+ADDED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:28:5-41:19
+	android:label
+		ADDED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:29:9-41
+	android:icon
+		ADDED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:30:9-45
+	android:allowBackup
+		ADDED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:28:18-44
+	android:theme
+		ADDED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:31:9-45
+activity#com.example.android.camera2video.CameraActivity
+ADDED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:33:9-39:20
+	android:label
+		ADDED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:34:19-51
+	android:name
+		ADDED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:33:19-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:35:13-38:29
+action#android.intent.action.MAIN
+ADDED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:36:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:37:17-77
+	android:name
+		ADDED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:37:27-74
+uses-sdk
+INJECTED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml
+INJECTED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml
+MERGED from [com.android.support:support-v13:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/433137c21ca95bc93f2462f248a4ba5f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/433137c21ca95bc93f2462f248a4ba5f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/902180f8c9501aae1d72ab7e7abd8910/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/902180f8c9501aae1d72ab7e7abd8910/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/7dfd3c8b85ccf3fa3bf78d4b2dedfd1b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/7dfd3c8b85ccf3fa3bf78d4b2dedfd1b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/d92089135e3d416679479b0330a6430e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/d92089135e3d416679479b0330a6430e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/8328795e13880dc5a9172f9e4622857c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/8328795e13880dc5a9172f9e4622857c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/866bc6713deaa689564a6668971f1fb5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/866bc6713deaa689564a6668971f1fb5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/399dec118cf77f9e637d5700d40f3f87/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/399dec118cf77f9e637d5700d40f3f87/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/ff2b1e96527315111586c0e8344629ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/ff2b1e96527315111586c0e8344629ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/3f109cc9e30ba15912c74d619595bc6b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/3f109cc9e30ba15912c74d619595bc6b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/e984e32e314992618279faaa6e826ac5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/e984e32e314992618279faaa6e826ac5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/a120a46b1f4ade929338233efb853eed/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/a120a46b1f4ade929338233efb853eed/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/cb4d240c712aca56bce8328373c852d4/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/cb4d240c712aca56bce8328373c852d4/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml
+INJECTED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml
+		ADDED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml
+		ADDED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/src/main/AndroidManifest.xml

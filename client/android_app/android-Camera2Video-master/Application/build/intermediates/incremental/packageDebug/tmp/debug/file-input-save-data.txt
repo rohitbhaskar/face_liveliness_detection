@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Tue Apr 17 00:24:37 IST 2018
+1.base=/home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/build/intermediates/transforms/dexMerger/debug/11
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=DEX
+0.path=classes.dex
+0.set=DEX
+0.base=/home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/Test_Codes/android-Camera2Video-master/Application/build/intermediates/transforms/dexMerger/debug/12
+1.path=classes.dex
