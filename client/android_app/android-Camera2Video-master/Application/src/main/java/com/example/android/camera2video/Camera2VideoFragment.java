@@ -38,7 +38,9 @@ import android.hardware.camera2.CameraMetadata;
 import android.hardware.camera2.CaptureRequest;
 import android.hardware.camera2.params.StreamConfigurationMap;
 import android.media.MediaRecorder;
+import android.net.Uri;
 import android.os.Bundle;
+import android.os.Environment;
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.support.annotation.NonNull;
@@ -55,14 +57,26 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.Toast;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.URISyntaxException;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
+
+import io.socket.client.IO;
+import io.socket.client.Socket;
+import io.socket.emitter.Emitter;
 
 public class Camera2VideoFragment extends Fragment
         implements View.OnClickListener, FragmentCompat.OnRequestPermissionsResultCallback {
@@ -94,6 +108,23 @@ public class Camera2VideoFragment extends Fragment
         INVERSE_ORIENTATIONS.append(Surface.ROTATION_180, 90);
         INVERSE_ORIENTATIONS.append(Surface.ROTATION_270, 0);
     }
+
+
+
+
+    ////////////////////////////////////////////////////////  Web-Socket  ////////////////////////////////////////////
+    private Socket socket;
+    {
+        try{
+            socket = IO.socket("http://192.168.1.2:6000");
+        } catch (URISyntaxException e) {
+            e.printStackTrace();
+        }
+    }
+
+
+
+    ////////////////////////////////////////////////////////  Camera ////////////////////////////////////////////
 
     /**
      * An {@link AutoFitTextureView} for camera preview.
@@ -292,6 +323,20 @@ public class Camera2VideoFragment extends Fragment
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        // Web Sockets
+
+        socket.on(Socket.EVENT_CONNECT, new Emitter.Listener() {
+
+            @Override
+            public void call(Object... args) {
+//                socket.emit("foo", "hi");
+//                socket.disconnect();
+            }
+
+        }).on("new message", onNewMessage);
+
+        socket.connect();
+
         return inflater.inflate(R.layout.fragment_camera2_video, container, false);
     }
 
@@ -316,6 +361,10 @@ public class Camera2VideoFragment extends Fragment
 
     @Override
     public void onPause() {
+        // Web sockets
+        socket.disconnect();
+        socket.off("new message", onNewMessage);
+
         closeCamera();
         stopBackgroundThread();
         super.onPause();
@@ -623,7 +672,7 @@ public class Camera2VideoFragment extends Fragment
     private String getVideoFilePath(Context context) {
         final File dir = context.getExternalFilesDir(null);
         return (dir == null ? "" : (dir.getAbsolutePath() + "/"))
-                + System.currentTimeMillis() + ".mp4";
+                + /*System.currentTimeMillis()*/ '1' + ".mp4";
     }
 
     private void startRecordingVideo() {
@@ -692,6 +741,9 @@ public class Camera2VideoFragment extends Fragment
     }
 
     private void stopRecordingVideo() {
+        // HTTP POST
+        UploadFile(mNextVideoAbsolutePath);
+
         // UI
         mIsRecordingVideo = false;
         mButtonVideo.setText(R.string.record);
@@ -775,6 +827,53 @@ public class Camera2VideoFragment extends Fragment
                     .create();
         }
 
+    }
+
+
+
+    // Socket IO
+    private Emitter.Listener onNewMessage = new Emitter.Listener() {
+        @Override
+        public void call(final Object... args) {
+            getActivity().runOnUiThread(new Runnable() {
+                @Override
+                public void run() {
+                    JSONObject data = (JSONObject) args[0];
+                    String username;
+                    String message;
+                    try {
+                        username = data.getString("username");
+                        message = data.getString("message");
+                    } catch (JSONException e) {
+                        return;
+                    }
+
+                    // add the message to view
+//                    addMessage(username, message);
+                }
+            });
+        }
+    };
+
+
+    // HTTP multipart Upload
+    public void UploadFile(String filePath){
+        try {
+            // Set your file path here
+//            FileInputStream fstrm = new FileInputStream(Environment.getExternalStorageDirectory().toString()+"/DCIM/file.mp4");
+            FileInputStream fstrm = new FileInputStream(filePath);
+
+            // Set your server page url (and the file title/description)
+//            HttpFileUpload hfu = new HttpFileUpload("https://enigmatic-fortress-49737.herokuapp.com/upload", "my file title","my file description");
+
+            HttpFileUpload hfu = new HttpFileUpload("http://192.168.1.2:5000/upload", "my file title","my file description", new File(filePath));
+
+//            hfu.Send_Now(fstrm);
+            hfu.execute(fstrm);
+
+        } catch (FileNotFoundException e) {
+            // Error: File not found
+        }
     }
 
 }
