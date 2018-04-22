@@ -350,6 +350,9 @@ public class Camera2VideoFragment extends Fragment
 
     @Override
     public void onResume() {
+        // Web sockets
+        if(!socket.connected()) socket.connect();
+
         super.onResume();
         startBackgroundThread();
         if (mTextureView.isAvailable()) {

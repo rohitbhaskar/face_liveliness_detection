@@ -42,36 +42,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Camera2VideoFragment.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Camera2VideoFragment.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2video/Camera2VideoFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="840" column="0" lean-forward="false" selection-start-line="840" selection-start-column="0" selection-end-line="840" selection-end-column="0" />
+            <state relative-caret-position="431">
+              <caret line="353" column="32" lean-forward="false" selection-start-line="353" selection-start-column="32" selection-end-line="353" selection-end-column="32" />
               <folding>
                 <element signature="e#8041#8042#0" expanded="true" />
                 <element signature="e#8090#8091#0" expanded="true" />
                 <element signature="e#10879#11081#0" expanded="true" />
                 <element signature="e#11080#11081#0" expanded="true" />
-                <element signature="e#12678#12700#0" expanded="true" />
-                <element signature="e#15029#15067#0" expanded="true" />
-                <element signature="e#15284#15322#0" expanded="true" />
-                <element signature="e#15976#16014#0" expanded="true" />
-                <element signature="e#18395#18427#0" expanded="true" />
-                <element signature="e#26421#26816#0" expanded="true" />
-                <element signature="e#26599#26612#0" expanded="true" />
-                <element signature="e#26815#26816#0" expanded="true" />
-                <element signature="e#27689#27704#0" expanded="true" />
-                <element signature="e#29305#29559#0" expanded="true" />
-                <element signature="e#29558#29559#0" expanded="true" />
-                <element signature="e#29910#29937#0" expanded="true" />
-                <element signature="e#29999#30354#0" expanded="true" />
-                <element signature="e#30353#30354#0" expanded="true" />
-                <element signature="e#30448#30749#0" expanded="true" />
-                <element signature="e#30748#30749#0" expanded="true" />
-                <element signature="e#30863#31609#0" expanded="true" />
-                <element signature="e#30995#31591#0" expanded="true" />
-                <element signature="e#31590#31591#0" expanded="true" />
-                <element signature="e#31608#31609#0" expanded="true" />
+                <element signature="e#12752#12774#0" expanded="true" />
+                <element signature="e#15103#15141#0" expanded="true" />
+                <element signature="e#15358#15396#0" expanded="true" />
+                <element signature="e#16050#16088#0" expanded="true" />
+                <element signature="e#18469#18501#0" expanded="true" />
+                <element signature="e#26495#26890#0" expanded="true" />
+                <element signature="e#26673#26686#0" expanded="true" />
+                <element signature="e#26889#26890#0" expanded="true" />
+                <element signature="e#27763#27778#0" expanded="true" />
+                <element signature="e#29379#29633#0" expanded="true" />
+                <element signature="e#29632#29633#0" expanded="true" />
+                <element signature="e#29984#30011#0" expanded="true" />
+                <element signature="e#30073#30428#0" expanded="true" />
+                <element signature="e#30427#30428#0" expanded="true" />
+                <element signature="e#30522#30823#0" expanded="true" />
+                <element signature="e#30822#30823#0" expanded="true" />
+                <element signature="e#30937#31683#0" expanded="true" />
+                <element signature="e#31069#31665#0" expanded="true" />
+                <element signature="e#31664#31665#0" expanded="true" />
+                <element signature="e#31682#31683#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,7 +97,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HttpFileUpload.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HttpFileUpload.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2video/HttpFileUpload.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="467">
@@ -2288,19 +2288,19 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2video/Camera2VideoFragment.java</url>
-          <line>364</line>
+          <line>367</line>
           <properties />
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2video/Camera2VideoFragment.java</url>
-          <line>840</line>
+          <line>843</line>
           <properties />
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2video/Camera2VideoFragment.java</url>
-          <line>836</line>
+          <line>839</line>
           <properties method="call">
             <option name="EMULATED" value="true" />
           </properties>
@@ -2337,26 +2337,26 @@
             <element signature="e#8090#8091#0" expanded="true" />
             <element signature="e#10879#11081#0" expanded="true" />
             <element signature="e#11080#11081#0" expanded="true" />
-            <element signature="e#12678#12700#0" expanded="true" />
-            <element signature="e#15029#15067#0" expanded="true" />
-            <element signature="e#15284#15322#0" expanded="true" />
-            <element signature="e#15976#16014#0" expanded="true" />
-            <element signature="e#18395#18427#0" expanded="true" />
-            <element signature="e#26421#26816#0" expanded="true" />
-            <element signature="e#26599#26612#0" expanded="true" />
-            <element signature="e#26815#26816#0" expanded="true" />
-            <element signature="e#27689#27704#0" expanded="true" />
-            <element signature="e#29305#29559#0" expanded="true" />
-            <element signature="e#29558#29559#0" expanded="true" />
-            <element signature="e#29910#29937#0" expanded="true" />
-            <element signature="e#29999#30354#0" expanded="true" />
-            <element signature="e#30353#30354#0" expanded="true" />
-            <element signature="e#30448#30749#0" expanded="true" />
-            <element signature="e#30748#30749#0" expanded="true" />
-            <element signature="e#30863#31609#0" expanded="true" />
-            <element signature="e#30995#31591#0" expanded="true" />
-            <element signature="e#31590#31591#0" expanded="true" />
-            <element signature="e#31608#31609#0" expanded="true" />
+            <element signature="e#12752#12774#0" expanded="true" />
+            <element signature="e#15103#15141#0" expanded="true" />
+            <element signature="e#15358#15396#0" expanded="true" />
+            <element signature="e#16050#16088#0" expanded="true" />
+            <element signature="e#18469#18501#0" expanded="true" />
+            <element signature="e#26495#26890#0" expanded="true" />
+            <element signature="e#26673#26686#0" expanded="true" />
+            <element signature="e#26889#26890#0" expanded="true" />
+            <element signature="e#27763#27778#0" expanded="true" />
+            <element signature="e#29379#29633#0" expanded="true" />
+            <element signature="e#29632#29633#0" expanded="true" />
+            <element signature="e#29984#30011#0" expanded="true" />
+            <element signature="e#30073#30428#0" expanded="true" />
+            <element signature="e#30427#30428#0" expanded="true" />
+            <element signature="e#30522#30823#0" expanded="true" />
+            <element signature="e#30822#30823#0" expanded="true" />
+            <element signature="e#30937#31683#0" expanded="true" />
+            <element signature="e#31069#31665#0" expanded="true" />
+            <element signature="e#31664#31665#0" expanded="true" />
+            <element signature="e#31682#31683#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2404,26 +2404,26 @@
             <element signature="e#8090#8091#0" expanded="true" />
             <element signature="e#10879#11081#0" expanded="true" />
             <element signature="e#11080#11081#0" expanded="true" />
-            <element signature="e#12678#12700#0" expanded="true" />
-            <element signature="e#15029#15067#0" expanded="true" />
-            <element signature="e#15284#15322#0" expanded="true" />
-            <element signature="e#15976#16014#0" expanded="true" />
-            <element signature="e#18395#18427#0" expanded="true" />
-            <element signature="e#26421#26816#0" expanded="true" />
-            <element signature="e#26599#26612#0" expanded="true" />
-            <element signature="e#26815#26816#0" expanded="true" />
-            <element signature="e#27689#27704#0" expanded="true" />
-            <element signature="e#29305#29559#0" expanded="true" />
-            <element signature="e#29558#29559#0" expanded="true" />
-            <element signature="e#29910#29937#0" expanded="true" />
-            <element signature="e#29999#30354#0" expanded="true" />
-            <element signature="e#30353#30354#0" expanded="true" />
-            <element signature="e#30448#30749#0" expanded="true" />
-            <element signature="e#30748#30749#0" expanded="true" />
-            <element signature="e#30863#31609#0" expanded="true" />
-            <element signature="e#30995#31591#0" expanded="true" />
-            <element signature="e#31590#31591#0" expanded="true" />
-            <element signature="e#31608#31609#0" expanded="true" />
+            <element signature="e#12752#12774#0" expanded="true" />
+            <element signature="e#15103#15141#0" expanded="true" />
+            <element signature="e#15358#15396#0" expanded="true" />
+            <element signature="e#16050#16088#0" expanded="true" />
+            <element signature="e#18469#18501#0" expanded="true" />
+            <element signature="e#26495#26890#0" expanded="true" />
+            <element signature="e#26673#26686#0" expanded="true" />
+            <element signature="e#26889#26890#0" expanded="true" />
+            <element signature="e#27763#27778#0" expanded="true" />
+            <element signature="e#29379#29633#0" expanded="true" />
+            <element signature="e#29632#29633#0" expanded="true" />
+            <element signature="e#29984#30011#0" expanded="true" />
+            <element signature="e#30073#30428#0" expanded="true" />
+            <element signature="e#30427#30428#0" expanded="true" />
+            <element signature="e#30522#30823#0" expanded="true" />
+            <element signature="e#30822#30823#0" expanded="true" />
+            <element signature="e#30937#31683#0" expanded="true" />
+            <element signature="e#31069#31665#0" expanded="true" />
+            <element signature="e#31664#31665#0" expanded="true" />
+            <element signature="e#31682#31683#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2559,45 +2559,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2video/Camera2VideoFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="840" column="0" lean-forward="false" selection-start-line="840" selection-start-column="0" selection-end-line="840" selection-end-column="0" />
-          <folding>
-            <element signature="e#8041#8042#0" expanded="true" />
-            <element signature="e#8090#8091#0" expanded="true" />
-            <element signature="e#10879#11081#0" expanded="true" />
-            <element signature="e#11080#11081#0" expanded="true" />
-            <element signature="e#12678#12700#0" expanded="true" />
-            <element signature="e#15029#15067#0" expanded="true" />
-            <element signature="e#15284#15322#0" expanded="true" />
-            <element signature="e#15976#16014#0" expanded="true" />
-            <element signature="e#18395#18427#0" expanded="true" />
-            <element signature="e#26421#26816#0" expanded="true" />
-            <element signature="e#26599#26612#0" expanded="true" />
-            <element signature="e#26815#26816#0" expanded="true" />
-            <element signature="e#27689#27704#0" expanded="true" />
-            <element signature="e#29305#29559#0" expanded="true" />
-            <element signature="e#29558#29559#0" expanded="true" />
-            <element signature="e#29910#29937#0" expanded="true" />
-            <element signature="e#29999#30354#0" expanded="true" />
-            <element signature="e#30353#30354#0" expanded="true" />
-            <element signature="e#30448#30749#0" expanded="true" />
-            <element signature="e#30748#30749#0" expanded="true" />
-            <element signature="e#30863#31609#0" expanded="true" />
-            <element signature="e#30995#31591#0" expanded="true" />
-            <element signature="e#31590#31591#0" expanded="true" />
-            <element signature="e#31608#31609#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2video/HttpFileUpload.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="467">
           <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2video/Camera2VideoFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="353" column="32" lean-forward="false" selection-start-line="353" selection-start-column="32" selection-end-line="353" selection-end-column="32" />
+          <folding>
+            <element signature="e#8041#8042#0" expanded="true" />
+            <element signature="e#8090#8091#0" expanded="true" />
+            <element signature="e#10879#11081#0" expanded="true" />
+            <element signature="e#11080#11081#0" expanded="true" />
+            <element signature="e#12752#12774#0" expanded="true" />
+            <element signature="e#15103#15141#0" expanded="true" />
+            <element signature="e#15358#15396#0" expanded="true" />
+            <element signature="e#16050#16088#0" expanded="true" />
+            <element signature="e#18469#18501#0" expanded="true" />
+            <element signature="e#26495#26890#0" expanded="true" />
+            <element signature="e#26673#26686#0" expanded="true" />
+            <element signature="e#26889#26890#0" expanded="true" />
+            <element signature="e#27763#27778#0" expanded="true" />
+            <element signature="e#29379#29633#0" expanded="true" />
+            <element signature="e#29632#29633#0" expanded="true" />
+            <element signature="e#29984#30011#0" expanded="true" />
+            <element signature="e#30073#30428#0" expanded="true" />
+            <element signature="e#30427#30428#0" expanded="true" />
+            <element signature="e#30522#30823#0" expanded="true" />
+            <element signature="e#30822#30823#0" expanded="true" />
+            <element signature="e#30937#31683#0" expanded="true" />
+            <element signature="e#31069#31665#0" expanded="true" />
+            <element signature="e#31664#31665#0" expanded="true" />
+            <element signature="e#31682#31683#0" expanded="true" />
           </folding>
         </state>
       </provider>
