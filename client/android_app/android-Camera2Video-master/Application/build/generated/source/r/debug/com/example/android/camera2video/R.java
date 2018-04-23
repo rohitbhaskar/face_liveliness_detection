@@ -2471,25 +2471,29 @@ public final class R {
     public static final int status_bar_latest_event_content=0x7f070067;
     public static final int submenuarrow=0x7f070068;
     public static final int submit_area=0x7f070069;
-    public static final int tabMode=0x7f07006a;
-    public static final int tag_transition_group=0x7f07006b;
-    public static final int text=0x7f07006c;
-    public static final int text2=0x7f07006d;
-    public static final int textSpacerNoButtons=0x7f07006e;
-    public static final int textSpacerNoTitle=0x7f07006f;
-    public static final int texture=0x7f070070;
-    public static final int time=0x7f070071;
-    public static final int title=0x7f070072;
-    public static final int titleDividerNoCustom=0x7f070073;
-    public static final int title_template=0x7f070074;
-    public static final int top=0x7f070075;
-    public static final int topPanel=0x7f070076;
-    public static final int uniform=0x7f070077;
-    public static final int up=0x7f070078;
-    public static final int useLogo=0x7f070079;
-    public static final int video=0x7f07007a;
-    public static final int withText=0x7f07007b;
-    public static final int wrap_content=0x7f07007c;
+    public static final int suddenImageBottomLeft=0x7f07006a;
+    public static final int suddenImageBottomRight=0x7f07006b;
+    public static final int suddenImageTopLeft=0x7f07006c;
+    public static final int suddenImageTopRight=0x7f07006d;
+    public static final int tabMode=0x7f07006e;
+    public static final int tag_transition_group=0x7f07006f;
+    public static final int text=0x7f070070;
+    public static final int text2=0x7f070071;
+    public static final int textSpacerNoButtons=0x7f070072;
+    public static final int textSpacerNoTitle=0x7f070073;
+    public static final int texture=0x7f070074;
+    public static final int time=0x7f070075;
+    public static final int title=0x7f070076;
+    public static final int titleDividerNoCustom=0x7f070077;
+    public static final int title_template=0x7f070078;
+    public static final int top=0x7f070079;
+    public static final int topPanel=0x7f07007a;
+    public static final int uniform=0x7f07007b;
+    public static final int up=0x7f07007c;
+    public static final int useLogo=0x7f07007d;
+    public static final int video=0x7f07007e;
+    public static final int withText=0x7f07007f;
+    public static final int wrap_content=0x7f070080;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f080000;
@@ -2582,11 +2586,12 @@ public final class R {
     public static final int camera_error=0x7f0a001e;
     public static final int description_info=0x7f0a001f;
     public static final int intro_message=0x7f0a0020;
-    public static final int permission_request=0x7f0a0021;
-    public static final int record=0x7f0a0022;
-    public static final int search_menu_title=0x7f0a0023;
-    public static final int status_bar_notification_info_overflow=0x7f0a0024;
-    public static final int stop=0x7f0a0025;
+    public static final int payment_button=0x7f0a0021;
+    public static final int permission_request=0x7f0a0022;
+    public static final int record=0x7f0a0023;
+    public static final int search_menu_title=0x7f0a0024;
+    public static final int status_bar_notification_info_overflow=0x7f0a0025;
+    public static final int stop=0x7f0a0026;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f0b0000;

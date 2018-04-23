@@ -55,6 +55,7 @@ import android.view.TextureView;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import org.json.JSONException;
@@ -121,6 +122,15 @@ public class Camera2VideoFragment extends Fragment
             e.printStackTrace();
         }
     }
+
+
+
+    ////////////////////////////////////////////////////////  Sudden Change  ////////////////////////////////////////////
+    private ImageView suddenImageViewTopLeft;
+    private ImageView suddenImageViewTopRight;
+    private ImageView suddenImageViewBottomLeft;
+    private ImageView suddenImageViewBottomRight;
+
 
 
 
@@ -344,8 +354,16 @@ public class Camera2VideoFragment extends Fragment
     public void onViewCreated(final View view, Bundle savedInstanceState) {
         mTextureView = (AutoFitTextureView) view.findViewById(R.id.texture);
         mButtonVideo = (Button) view.findViewById(R.id.video);
+        suddenImageViewTopLeft = view.findViewById(R.id.suddenImageTopLeft);
+        suddenImageViewTopRight = view.findViewById(R.id.suddenImageTopRight);
+        suddenImageViewBottomLeft = view.findViewById(R.id.suddenImageBottomLeft);
+        suddenImageViewBottomRight = view.findViewById(R.id.suddenImageBottomRight);
+        suddenImageViewTopLeft.setVisibility(View.INVISIBLE);
+        suddenImageViewTopRight.setVisibility(View.INVISIBLE);
+        suddenImageViewBottomLeft.setVisibility(View.INVISIBLE);
+        suddenImageViewBottomRight.setVisibility(View.INVISIBLE);
         mButtonVideo.setOnClickListener(this);
-        view.findViewById(R.id.info).setOnClickListener(this);
+        //view.findViewById(R.id.info).setOnClickListener(this);
     }
 
     @Override
@@ -381,6 +399,23 @@ public class Camera2VideoFragment extends Fragment
                     stopRecordingVideo();
                 } else {
                     startRecordingVideo();
+                    mButtonVideo.setClickable(false);
+                    final Handler handlerSuddenImg = new Handler();
+                    final Handler handlerStopVid = new Handler();
+                    handlerSuddenImg.postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            suddenImageViewTopRight.setVisibility(View.VISIBLE);
+                        }
+                    }, 500);
+                    handlerStopVid.postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            stopRecordingVideo();
+                            mButtonVideo.setClickable(true);
+                            suddenImageViewTopRight.setVisibility(View.INVISIBLE);
+                        }
+                    }, 1500);
                 }
                 break;
             }
