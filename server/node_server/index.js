@@ -9,6 +9,10 @@ var fs = require('fs')
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
 
+// To run python code
+var sys   = require('util')
+const spawn = require('child_process').spawn
+
 app.get('/', function(req, res){
    //res.render('form');
 });
@@ -47,10 +51,20 @@ app.post('/upload', timeout('100s'), upload.single('video'), haltOnTimedout, fun
 	    if ( err ) console.log('ERROR: ' + err);
 	});
 
-	io.emit('new message', {"username":"Rohit", "message":"Hi"});
+	// Clal python code
+	const trackIris  = spawn('python', ['python_script.py', 'uploads/1.mp4', req.body.motionType]);
+	//Response from python code
+	trackIris.stdout.on('data', function(data) {
+	    console.log("Finished tracking Iris", data);
+	    debugger;
+	    io.emit('new message', {"username":"Rohit", "message":"Hi"});
+	});
+
   // req.file is the `avatar` file
   // req.body will hold the text fields, if there were any
 })
+
+
 
 function haltOnTimedout (req, res, next) {
   if (!req.timedout) next()

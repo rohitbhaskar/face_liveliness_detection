@@ -5,54 +5,28 @@
     build-mode="COLD"
     density="xhdpi"
     format="10"
-    ir-eligibility="COMPATIBLE"
     plugin-version="3.1.1"
-    timestamp="1524511566107"
+    timestamp="1524517440938"
     token="-4330205330250749814"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="415" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="125" />
+        duration="0" />
     <task
         name="verifier"
-        duration="19" />
-
-    <artifact
-        location="/home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/face_liveliness_detection/client/android_app/android-Camera2Video-master/Application/build/intermediates/split-apk/debug/slices/slice_2.apk"
-        type="SPLIT" />
+        duration="0" />
 
     <build
         build-mode="FULL"
-        timestamp="1524510682817"
+        timestamp="1524517406102"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="/home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/face_liveliness_detection/client/android_app/android-Camera2Video-master/Application/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/face_liveliness_detection/client/android_app/android-Camera2Video-master/Application/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/face_liveliness_detection/client/android_app/android-Camera2Video-master/Application/build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/face_liveliness_detection/client/android_app/android-Camera2Video-master/Application/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/face_liveliness_detection/client/android_app/android-Camera2Video-master/Application/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/face_liveliness_detection/client/android_app/android-Camera2Video-master/Application/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/face_liveliness_detection/client/android_app/android-Camera2Video-master/Application/build/intermediates/instant-run-apk/debug/Application-debug.apk"
-            type="SPLIT_MAIN" />
         <artifact
             location="/home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/face_liveliness_detection/client/android_app/android-Camera2Video-master/Application/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
@@ -63,29 +37,36 @@
             location="/home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/face_liveliness_detection/client/android_app/android-Camera2Video-master/Application/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
+            location="/home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/face_liveliness_detection/client/android_app/android-Camera2Video-master/Application/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/face_liveliness_detection/client/android_app/android-Camera2Video-master/Application/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/face_liveliness_detection/client/android_app/android-Camera2Video-master/Application/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
             location="/home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/face_liveliness_detection/client/android_app/android-Camera2Video-master/Application/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/face_liveliness_detection/client/android_app/android-Camera2Video-master/Application/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/face_liveliness_detection/client/android_app/android-Camera2Video-master/Application/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
             location="/home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/face_liveliness_detection/client/android_app/android-Camera2Video-master/Application/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1524511269104"
-        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/face_liveliness_detection/client/android_app/android-Camera2Video-master/Application/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
         <artifact
             location="/home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/face_liveliness_detection/client/android_app/android-Camera2Video-master/Application/build/intermediates/instant-run-apk/debug/Application-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1524511566107"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/face_liveliness_detection/client/android_app/android-Camera2Video-master/Application/build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
-    </build>
+        timestamp="1524517440938"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

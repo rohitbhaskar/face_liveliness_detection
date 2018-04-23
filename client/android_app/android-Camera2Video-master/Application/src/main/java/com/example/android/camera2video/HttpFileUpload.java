@@ -57,7 +57,7 @@ public class HttpFileUpload extends AsyncTask<FileInputStream, Void, Void> imple
                     .setType(MultipartBody.FORM)
                     .addFormDataPart("video", file.getName(),
                             RequestBody.create(MediaType.parse("video/mp4"), file))
-                    .addFormDataPart("name", "video")
+                    .addFormDataPart("motionType", "1")
                     .build();
 
             Request request = new Request.Builder()
