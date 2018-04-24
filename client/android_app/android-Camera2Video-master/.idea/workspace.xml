@@ -35,21 +35,49 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="558">
               <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Camera2VideoFragment.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Camera2VideoFragment.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2video/Camera2VideoFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="878" column="0" lean-forward="false" selection-start-line="878" selection-start-column="0" selection-end-line="878" selection-end-column="0" />
+            <state relative-caret-position="308">
+              <caret line="962" column="0" lean-forward="false" selection-start-line="962" selection-start-column="0" selection-end-line="962" selection-end-column="0" />
               <folding>
-                <element signature="e#8392#8393#0" expanded="true" />
-                <element signature="e#8441#8442#0" expanded="true" />
+                <element signature="e#8622#8623#0" expanded="true" />
+                <element signature="e#8671#8672#0" expanded="true" />
+                <element signature="e#11460#11662#0" expanded="true" />
+                <element signature="e#11661#11662#0" expanded="true" />
+                <element signature="e#13917#14125#0" expanded="true" />
+                <element signature="e#14124#14125#0" expanded="true" />
+                <element signature="e#14180#14499#0" expanded="true" />
+                <element signature="e#14498#14499#0" expanded="true" />
+                <element signature="e#14778#14800#0" expanded="true" />
+                <element signature="e#19714#19752#0" expanded="true" />
+                <element signature="e#19969#20007#0" expanded="true" />
+                <element signature="e#20661#20699#0" expanded="true" />
+                <element signature="e#23080#23112#0" expanded="true" />
+                <element signature="e#31106#31501#0" expanded="true" />
+                <element signature="e#31284#31297#0" expanded="true" />
+                <element signature="e#31500#31501#0" expanded="true" />
+                <element signature="e#32308#32323#0" expanded="true" />
+                <element signature="e#34233#34487#0" expanded="true" />
+                <element signature="e#34486#34487#0" expanded="true" />
+                <element signature="e#34838#34865#0" expanded="true" />
+                <element signature="e#34927#35282#0" expanded="true" />
+                <element signature="e#35281#35282#0" expanded="true" />
+                <element signature="e#35376#35677#0" expanded="true" />
+                <element signature="e#35676#35677#0" expanded="true" />
+                <element signature="e#35791#36986#0" expanded="true" />
+                <element signature="e#35923#36968#0" expanded="true" />
+                <element signature="e#36624#36827#0" expanded="true" />
+                <element signature="e#36826#36827#0" expanded="true" />
+                <element signature="e#36967#36968#0" expanded="true" />
+                <element signature="e#36985#36986#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,44 +85,22 @@
       </file>
       <file leaf-file-name="fragment_camera2_video.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/fragment_camera2_video.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="86" column="46" lean-forward="false" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="47" column="61" lean-forward="false" selection-start-line="47" selection-start-column="61" selection-end-line="47" selection-end-column="61" />
-              <folding>
-                <element signature="e#1636#1660#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
         </entry>
       </file>
-      <file leaf-file-name="Fragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Softwares/Android_Dev/SDK/sources/android-27/android/app/Fragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39600">
-              <caret line="2351" column="0" lean-forward="false" selection-start-line="2351" selection-start-column="0" selection-end-line="2351" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CameraManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Softwares/Android_Dev/SDK/sources/android-27/android/hardware/camera2/CameraManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HttpFileUpload.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HttpFileUpload.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2video/HttpFileUpload.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="64" column="47" lean-forward="true" selection-start-line="64" selection-start-column="47" selection-end-line="64" selection-end-column="47" />
+            <state relative-caret-position="635">
+              <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,6 +132,9 @@
       <find>mNextVideoAbsolutePath</find>
       <find>mButtonVideo</find>
       <find>stopRecordingVideo</find>
+      <find>mMediaRecorder</find>
+      <find>mVideoSize</find>
+      <find>closePreviewSession</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -2003,14 +2012,14 @@
         <option value="$PROJECT_DIR$/Application/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/Application/build.gradle" />
         <option value="$PROJECT_DIR$/Application/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2video/HttpFileUpload.java" />
         <option value="$PROJECT_DIR$/Application/src/main/res/layout/fragment_camera2_video.xml" />
         <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2video/Camera2VideoFragment.java" />
-        <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2video/HttpFileUpload.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1862" />
+    <option name="x" value="58" />
     <option name="y" value="-11" />
     <option name="width" value="1863" />
     <option name="height" value="1092" />
@@ -2030,42 +2039,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
-            <path>
-              <item name="android-Camera2Video-master" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Application" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="android-Camera2Video-master" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Application" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="android-Camera2Video-master" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Application" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="camera2video" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="android-Camera2Video-master" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Application" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-            </path>
-            <path>
-              <item name="android-Camera2Video-master" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Application" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="android-Camera2Video-master" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Application" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
-              <item name="fragment_camera2_video" type="c431d0b8:AndroidResGroupNode" />
-            </path>
             <path>
               <item name="android-Camera2Video-master" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
@@ -2074,10 +2051,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2251,8 +2227,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1862" y="-11" width="1863" height="1092" extended-state="6" />
-    <editor active="true" />
+    <frame x="58" y="-11" width="1863" height="1092" extended-state="6" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2265,17 +2240,18 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2831766" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2831766" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08980716" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19958203" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3260188" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3260188" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2283,7 +2259,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -2294,40 +2269,156 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2video/HttpFileUpload.java</url>
-          <line>75</line>
+          <line>77</line>
           <properties />
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2video/HttpFileUpload.java</url>
-          <line>70</line>
+          <line>72</line>
           <properties />
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2video/HttpFileUpload.java</url>
-          <line>55</line>
-          <properties />
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2video/Camera2VideoFragment.java</url>
-          <line>385</line>
+          <line>388</line>
           <properties />
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2video/Camera2VideoFragment.java</url>
-          <line>878</line>
+          <line>944</line>
           <properties />
           <option name="timeStamp" value="44" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2video/Camera2VideoFragment.java</url>
+          <line>478</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2video/Camera2VideoFragment.java</url>
+          <line>955</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2video/Camera2VideoFragment.java</url>
+          <line>851</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2video/HttpFileUpload.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2video/Camera2VideoFragment.java</url>
+          <line>482</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="47" />
+      <option name="time" value="52" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Application/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/fragment_camera2_video.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="47" column="61" lean-forward="false" selection-start-line="47" selection-start-column="61" selection-end-line="47" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Softwares/Android_Dev/SDK/sources/android-27/android/app/Fragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42318">
+          <caret line="2351" column="0" lean-forward="false" selection-start-line="2351" selection-start-column="0" selection-end-line="2351" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Softwares/Android_Dev/SDK/sources/android-27/android/hardware/camera2/CameraManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1746">
+          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2video/HttpFileUpload.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1152">
+          <caret line="64" column="47" lean-forward="true" selection-start-line="64" selection-start-column="47" selection-end-line="64" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2video/CameraActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2video/Camera2VideoFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5616">
+          <caret line="391" column="5" lean-forward="false" selection-start-line="391" selection-start-column="5" selection-end-line="391" selection-end-column="5" />
+          <folding>
+            <element signature="e#8622#8623#0" expanded="true" />
+            <element signature="e#8671#8672#0" expanded="true" />
+            <element signature="e#11460#11662#0" expanded="true" />
+            <element signature="e#11661#11662#0" expanded="true" />
+            <element signature="e#13917#14125#0" expanded="true" />
+            <element signature="e#14124#14125#0" expanded="true" />
+            <element signature="e#14180#14499#0" expanded="true" />
+            <element signature="e#14498#14499#0" expanded="true" />
+            <element signature="e#14778#14800#0" expanded="true" />
+            <element signature="e#19714#19752#0" expanded="true" />
+            <element signature="e#19969#20007#0" expanded="true" />
+            <element signature="e#20661#20699#0" expanded="true" />
+            <element signature="e#23080#23112#0" expanded="true" />
+            <element signature="e#31106#31501#0" expanded="true" />
+            <element signature="e#31284#31297#0" expanded="true" />
+            <element signature="e#31500#31501#0" expanded="true" />
+            <element signature="e#32308#32323#0" expanded="true" />
+            <element signature="e#34233#34487#0" expanded="true" />
+            <element signature="e#34486#34487#0" expanded="true" />
+            <element signature="e#34838#34865#0" expanded="true" />
+            <element signature="e#34927#35282#0" expanded="true" />
+            <element signature="e#35281#35282#0" expanded="true" />
+            <element signature="e#35376#35677#0" expanded="true" />
+            <element signature="e#35676#35677#0" expanded="true" />
+            <element signature="e#35791#36986#0" expanded="true" />
+            <element signature="e#35923#36968#0" expanded="true" />
+            <element signature="e#36624#36827#0" expanded="true" />
+            <element signature="e#36826#36827#0" expanded="true" />
+            <element signature="e#36967#36968#0" expanded="true" />
+            <element signature="e#36985#36986#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Application/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
@@ -2367,8 +2458,36 @@
         <state relative-caret-position="6606">
           <caret line="367" column="0" lean-forward="false" selection-start-line="367" selection-start-column="0" selection-end-line="367" selection-end-column="0" />
           <folding>
-            <element signature="e#8392#8393#0" expanded="true" />
-            <element signature="e#8441#8442#0" expanded="true" />
+            <element signature="e#8622#8623#0" expanded="true" />
+            <element signature="e#8671#8672#0" expanded="true" />
+            <element signature="e#11460#11662#0" expanded="true" />
+            <element signature="e#11661#11662#0" expanded="true" />
+            <element signature="e#13917#14125#0" expanded="true" />
+            <element signature="e#14124#14125#0" expanded="true" />
+            <element signature="e#14180#14499#0" expanded="true" />
+            <element signature="e#14498#14499#0" expanded="true" />
+            <element signature="e#14778#14800#0" expanded="true" />
+            <element signature="e#19714#19752#0" expanded="true" />
+            <element signature="e#19969#20007#0" expanded="true" />
+            <element signature="e#20661#20699#0" expanded="true" />
+            <element signature="e#23080#23112#0" expanded="true" />
+            <element signature="e#31106#31501#0" expanded="true" />
+            <element signature="e#31284#31297#0" expanded="true" />
+            <element signature="e#31500#31501#0" expanded="true" />
+            <element signature="e#32308#32323#0" expanded="true" />
+            <element signature="e#34233#34487#0" expanded="true" />
+            <element signature="e#34486#34487#0" expanded="true" />
+            <element signature="e#34838#34865#0" expanded="true" />
+            <element signature="e#34927#35282#0" expanded="true" />
+            <element signature="e#35281#35282#0" expanded="true" />
+            <element signature="e#35376#35677#0" expanded="true" />
+            <element signature="e#35676#35677#0" expanded="true" />
+            <element signature="e#35791#36986#0" expanded="true" />
+            <element signature="e#35923#36968#0" expanded="true" />
+            <element signature="e#36624#36827#0" expanded="true" />
+            <element signature="e#36826#36827#0" expanded="true" />
+            <element signature="e#36967#36968#0" expanded="true" />
+            <element signature="e#36985#36986#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2394,8 +2513,36 @@
         <state relative-caret-position="14580">
           <caret line="810" column="0" lean-forward="false" selection-start-line="810" selection-start-column="0" selection-end-line="810" selection-end-column="0" />
           <folding>
-            <element signature="e#8392#8393#0" expanded="true" />
-            <element signature="e#8441#8442#0" expanded="true" />
+            <element signature="e#8622#8623#0" expanded="true" />
+            <element signature="e#8671#8672#0" expanded="true" />
+            <element signature="e#11460#11662#0" expanded="true" />
+            <element signature="e#11661#11662#0" expanded="true" />
+            <element signature="e#13917#14125#0" expanded="true" />
+            <element signature="e#14124#14125#0" expanded="true" />
+            <element signature="e#14180#14499#0" expanded="true" />
+            <element signature="e#14498#14499#0" expanded="true" />
+            <element signature="e#14778#14800#0" expanded="true" />
+            <element signature="e#19714#19752#0" expanded="true" />
+            <element signature="e#19969#20007#0" expanded="true" />
+            <element signature="e#20661#20699#0" expanded="true" />
+            <element signature="e#23080#23112#0" expanded="true" />
+            <element signature="e#31106#31501#0" expanded="true" />
+            <element signature="e#31284#31297#0" expanded="true" />
+            <element signature="e#31500#31501#0" expanded="true" />
+            <element signature="e#32308#32323#0" expanded="true" />
+            <element signature="e#34233#34487#0" expanded="true" />
+            <element signature="e#34486#34487#0" expanded="true" />
+            <element signature="e#34838#34865#0" expanded="true" />
+            <element signature="e#34927#35282#0" expanded="true" />
+            <element signature="e#35281#35282#0" expanded="true" />
+            <element signature="e#35376#35677#0" expanded="true" />
+            <element signature="e#35676#35677#0" expanded="true" />
+            <element signature="e#35791#36986#0" expanded="true" />
+            <element signature="e#35923#36968#0" expanded="true" />
+            <element signature="e#36624#36827#0" expanded="true" />
+            <element signature="e#36826#36827#0" expanded="true" />
+            <element signature="e#36967#36968#0" expanded="true" />
+            <element signature="e#36985#36986#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2439,8 +2586,36 @@
         <state relative-caret-position="1188">
           <caret line="66" column="13" lean-forward="false" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
           <folding>
-            <element signature="e#8392#8393#0" expanded="true" />
-            <element signature="e#8441#8442#0" expanded="true" />
+            <element signature="e#8622#8623#0" expanded="true" />
+            <element signature="e#8671#8672#0" expanded="true" />
+            <element signature="e#11460#11662#0" expanded="true" />
+            <element signature="e#11661#11662#0" expanded="true" />
+            <element signature="e#13917#14125#0" expanded="true" />
+            <element signature="e#14124#14125#0" expanded="true" />
+            <element signature="e#14180#14499#0" expanded="true" />
+            <element signature="e#14498#14499#0" expanded="true" />
+            <element signature="e#14778#14800#0" expanded="true" />
+            <element signature="e#19714#19752#0" expanded="true" />
+            <element signature="e#19969#20007#0" expanded="true" />
+            <element signature="e#20661#20699#0" expanded="true" />
+            <element signature="e#23080#23112#0" expanded="true" />
+            <element signature="e#31106#31501#0" expanded="true" />
+            <element signature="e#31284#31297#0" expanded="true" />
+            <element signature="e#31500#31501#0" expanded="true" />
+            <element signature="e#32308#32323#0" expanded="true" />
+            <element signature="e#34233#34487#0" expanded="true" />
+            <element signature="e#34486#34487#0" expanded="true" />
+            <element signature="e#34838#34865#0" expanded="true" />
+            <element signature="e#34927#35282#0" expanded="true" />
+            <element signature="e#35281#35282#0" expanded="true" />
+            <element signature="e#35376#35677#0" expanded="true" />
+            <element signature="e#35676#35677#0" expanded="true" />
+            <element signature="e#35791#36986#0" expanded="true" />
+            <element signature="e#35923#36968#0" expanded="true" />
+            <element signature="e#36624#36827#0" expanded="true" />
+            <element signature="e#36826#36827#0" expanded="true" />
+            <element signature="e#36967#36968#0" expanded="true" />
+            <element signature="e#36985#36986#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2553,14 +2728,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/activity_camera.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/src/main/res/values/strings.xml">
@@ -2579,6 +2753,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Application/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/Softwares/Android_Dev/SDK/sources/android-27/android/hardware/camera2/CameraManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -2588,43 +2770,61 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/fragment_camera2_video.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="86" column="46" lean-forward="false" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="47" column="61" lean-forward="false" selection-start-line="47" selection-start-column="61" selection-end-line="47" selection-end-column="61" />
-          <folding>
-            <element signature="e#1636#1660#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/build.gradle">
+    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2video/HttpFileUpload.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="635">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2video/Camera2VideoFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="878" column="0" lean-forward="false" selection-start-line="878" selection-start-column="0" selection-end-line="878" selection-end-column="0" />
+        <state relative-caret-position="308">
+          <caret line="962" column="0" lean-forward="false" selection-start-line="962" selection-start-column="0" selection-end-line="962" selection-end-column="0" />
           <folding>
-            <element signature="e#8392#8393#0" expanded="true" />
-            <element signature="e#8441#8442#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2video/HttpFileUpload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="64" column="47" lean-forward="true" selection-start-line="64" selection-start-column="47" selection-end-line="64" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#8622#8623#0" expanded="true" />
+            <element signature="e#8671#8672#0" expanded="true" />
+            <element signature="e#11460#11662#0" expanded="true" />
+            <element signature="e#11661#11662#0" expanded="true" />
+            <element signature="e#13917#14125#0" expanded="true" />
+            <element signature="e#14124#14125#0" expanded="true" />
+            <element signature="e#14180#14499#0" expanded="true" />
+            <element signature="e#14498#14499#0" expanded="true" />
+            <element signature="e#14778#14800#0" expanded="true" />
+            <element signature="e#19714#19752#0" expanded="true" />
+            <element signature="e#19969#20007#0" expanded="true" />
+            <element signature="e#20661#20699#0" expanded="true" />
+            <element signature="e#23080#23112#0" expanded="true" />
+            <element signature="e#31106#31501#0" expanded="true" />
+            <element signature="e#31284#31297#0" expanded="true" />
+            <element signature="e#31500#31501#0" expanded="true" />
+            <element signature="e#32308#32323#0" expanded="true" />
+            <element signature="e#34233#34487#0" expanded="true" />
+            <element signature="e#34486#34487#0" expanded="true" />
+            <element signature="e#34838#34865#0" expanded="true" />
+            <element signature="e#34927#35282#0" expanded="true" />
+            <element signature="e#35281#35282#0" expanded="true" />
+            <element signature="e#35376#35677#0" expanded="true" />
+            <element signature="e#35676#35677#0" expanded="true" />
+            <element signature="e#35791#36986#0" expanded="true" />
+            <element signature="e#35923#36968#0" expanded="true" />
+            <element signature="e#36624#36827#0" expanded="true" />
+            <element signature="e#36826#36827#0" expanded="true" />
+            <element signature="e#36967#36968#0" expanded="true" />
+            <element signature="e#36985#36986#0" expanded="true" />
           </folding>
         </state>
       </provider>

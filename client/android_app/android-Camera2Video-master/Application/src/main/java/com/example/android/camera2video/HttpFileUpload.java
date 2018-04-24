@@ -29,11 +29,13 @@ public class HttpFileUpload extends AsyncTask<FileInputStream, Void, Void> imple
     String Description;
     byte[ ] dataToServer;
     FileInputStream fileInputStream = null;
+    int suddenImageId = 0;
 
     private final OkHttpClient client = new OkHttpClient();
 
-    HttpFileUpload(String urlString, String vTitle, String vDesc, File videoFile){
+    HttpFileUpload(String urlString, String vTitle, String vDesc, File videoFile, int suddenImageIdx){
         try{
+            suddenImageId = suddenImageIdx;
             file = videoFile;
             connectURL = new URL(urlString);
             Title= vTitle;
@@ -57,7 +59,7 @@ public class HttpFileUpload extends AsyncTask<FileInputStream, Void, Void> imple
                     .setType(MultipartBody.FORM)
                     .addFormDataPart("video", file.getName(),
                             RequestBody.create(MediaType.parse("video/mp4"), file))
-                    .addFormDataPart("motionType", "1")
+                    .addFormDataPart("motionType", String.valueOf(suddenImageId))
                     .build();
 
             Request request = new Request.Builder()

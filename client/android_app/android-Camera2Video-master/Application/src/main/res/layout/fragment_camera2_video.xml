@@ -72,6 +72,28 @@
             android:background="@android:color/holo_red_dark"
             app:srcCompat="@android:color/holo_red_dark" />
 
+        <TextView
+            android:id="@+id/resultTextSuccess"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom|center"
+            android:gravity="center"
+            android:textColor="@android:color/holo_green_dark"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:text="Liveliness Detection Successful!"/>
+
+        <TextView
+            android:id="@+id/resultTextFailure"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom|center"
+            android:gravity="center"
+            android:textColor="@android:color/holo_red_dark"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:text="Liveliness Detection Failed!"/>
+
     </FrameLayout>
 
 </RelativeLayout>

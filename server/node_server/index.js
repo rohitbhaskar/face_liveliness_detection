@@ -38,8 +38,6 @@ app.post('/', function(req, res){
 
 
 app.post('/upload', timeout('100s'), upload.single('video'), haltOnTimedout, function (req, res, next) {
-	var temp = req;
-	var tp = "timepass";
 	// debugger;
 	if (req.timedout) console.log("--- timed out ---");
 	console.log(req.body);
@@ -52,13 +50,15 @@ app.post('/upload', timeout('100s'), upload.single('video'), haltOnTimedout, fun
 	});
 
 	// Clal python code
-	const trackIris  = spawn('python', ['python_script.py', 'uploads/1.mp4', req.body.motionType]);
-	//Response from python code
-	trackIris.stdout.on('data', function(data) {
-	    console.log("Finished tracking Iris", data);
-	    debugger;
-	    io.emit('new message', {"username":"Rohit", "message":"Hi"});
-	});
+	setTimeout(function(){
+		const trackIris  = spawn('python', ['Eye_Tracking/EyeTracking.py', 'uploads/1.mp4', req.body.motionType]);
+		//Response from python code
+		trackIris.stdout.on('data', function(data) {
+		    console.log("Finished tracking Iris", data);
+		    debugger;
+		    io.emit('new message', {"username":"Rohit", "result":1});
+		});
+	}, 500);
 
   // req.file is the `avatar` file
   // req.body will hold the text fields, if there were any

@@ -56,6 +56,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import org.json.JSONException;
@@ -72,6 +73,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Random;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 
@@ -130,7 +132,10 @@ public class Camera2VideoFragment extends Fragment
     private ImageView suddenImageViewTopRight;
     private ImageView suddenImageViewBottomLeft;
     private ImageView suddenImageViewBottomRight;
-
+    private TextView suddenTextViewResultSuccess;
+    private TextView suddenTextViewResultFailure;
+    private int suddenImageId = 0;
+    private int suddenImageResult = 0;
 
 
 
@@ -358,10 +363,9 @@ public class Camera2VideoFragment extends Fragment
         suddenImageViewTopRight = view.findViewById(R.id.suddenImageTopRight);
         suddenImageViewBottomLeft = view.findViewById(R.id.suddenImageBottomLeft);
         suddenImageViewBottomRight = view.findViewById(R.id.suddenImageBottomRight);
-        suddenImageViewTopLeft.setVisibility(View.INVISIBLE);
-        suddenImageViewTopRight.setVisibility(View.INVISIBLE);
-        suddenImageViewBottomLeft.setVisibility(View.INVISIBLE);
-        suddenImageViewBottomRight.setVisibility(View.INVISIBLE);
+        suddenTextViewResultSuccess = view.findViewById(R.id.resultTextSuccess);
+        suddenTextViewResultFailure = view.findViewById(R.id.resultTextFailure);
+        toggleSuddenImages(0, 0);
         mButtonVideo.setOnClickListener(this);
         //view.findViewById(R.id.info).setOnClickListener(this);
     }
@@ -382,9 +386,8 @@ public class Camera2VideoFragment extends Fragment
 
     @Override
     public void onPause() {
-        // Web sockets
-        socket.disconnect();
-        socket.off("new message", onNewMessage);
+        // Web socketsocket.disconnect();
+//        socket.off("new message", onNewMessage);
 
         closeCamera();
         stopBackgroundThread();
@@ -402,10 +405,12 @@ public class Camera2VideoFragment extends Fragment
                     mButtonVideo.setClickable(false);
                     final Handler handlerSuddenImg = new Handler();
                     final Handler handlerStopVid = new Handler();
+                    Random r = new Random();
+                    suddenImageId = r.nextInt(5 - 1) + 1;
                     handlerSuddenImg.postDelayed(new Runnable() {
                         @Override
                         public void run() {
-                            suddenImageViewTopRight.setVisibility(View.VISIBLE);
+                            toggleSuddenImages(suddenImageId, 1);
                         }
                     }, 500);
                     handlerStopVid.postDelayed(new Runnable() {
@@ -413,7 +418,7 @@ public class Camera2VideoFragment extends Fragment
                         public void run() {
                             stopRecordingVideo();
                             mButtonVideo.setClickable(true);
-                            suddenImageViewTopRight.setVisibility(View.INVISIBLE);
+                            toggleSuddenImages(suddenImageId, 0);
                         }
                     }, 1500);
                 }
@@ -428,6 +433,57 @@ public class Camera2VideoFragment extends Fragment
                             .show();
                 }
                 break;
+            }
+        }
+    }
+
+    private void toggleSuddenImages(int value, int mode){
+        if(value == 0){
+            if(mode == 0) {
+                suddenImageViewTopLeft.setVisibility(View.INVISIBLE);
+                suddenImageViewTopRight.setVisibility(View.INVISIBLE);
+                suddenImageViewBottomLeft.setVisibility(View.INVISIBLE);
+                suddenImageViewBottomRight.setVisibility(View.INVISIBLE);
+                suddenTextViewResultSuccess.setVisibility(View.INVISIBLE);
+                suddenTextViewResultFailure.setVisibility(View.INVISIBLE);
+            }
+            else if(mode == 1){
+                suddenImageViewTopLeft.setVisibility(View.VISIBLE);
+                suddenImageViewTopRight.setVisibility(View.VISIBLE);
+                suddenImageViewBottomLeft.setVisibility(View.VISIBLE);
+                suddenImageViewBottomRight.setVisibility(View.VISIBLE);
+                suddenTextViewResultSuccess.setVisibility(View.VISIBLE);
+                suddenTextViewResultFailure.setVisibility(View.VISIBLE);
+            }
+        }
+        else{
+            switch (value){
+                case 1:
+                  if(mode == 0)  suddenImageViewTopLeft.setVisibility(View.INVISIBLE);
+                  else if(mode == 1) suddenImageViewTopLeft.setVisibility(View.VISIBLE);
+                  break;
+                case 2:
+                    if(mode == 0)  suddenImageViewTopRight.setVisibility(View.INVISIBLE);
+                    else if(mode == 1) suddenImageViewTopRight.setVisibility(View.VISIBLE);
+                    break;
+                case 3:
+                    if(mode == 0)  suddenImageViewBottomLeft.setVisibility(View.INVISIBLE);
+                    else if(mode == 1) suddenImageViewBottomLeft.setVisibility(View.VISIBLE);
+                    break;
+                case 4:
+                    if(mode == 0)  suddenImageViewBottomRight.setVisibility(View.INVISIBLE);
+                    else if(mode == 1) suddenImageViewBottomRight.setVisibility(View.VISIBLE);
+                    break;
+                case 10:
+                    if(mode == 0) suddenTextViewResultSuccess.setVisibility(View.INVISIBLE);
+                    else if(mode == 1) suddenTextViewResultSuccess.setVisibility(View.VISIBLE);
+                    break;
+                case 11:
+                    if(mode == 0) suddenTextViewResultFailure.setVisibility(View.INVISIBLE);
+                    else if(mode == 1) suddenTextViewResultFailure.setVisibility(View.VISIBLE);
+                    break;
+                default:
+                    break;
             }
         }
     }
@@ -779,24 +835,34 @@ public class Camera2VideoFragment extends Fragment
     }
 
     private void stopRecordingVideo() {
-        // HTTP POST
-        UploadFile(mNextVideoAbsolutePath);
-
         // UI
         mIsRecordingVideo = false;
         mButtonVideo.setText(R.string.record);
+
+        closePreviewSession();
+
+//        try {
+//            mPreviewSession.stopRepeating();
+//            mPreviewSession.abortCaptures();
+//        } catch (CameraAccessException e) {
+//            e.printStackTrace();
+//        }
+
         // Stop recording
         mMediaRecorder.stop();
         mMediaRecorder.reset();
 
+        // HTTP POST
+        UploadFile(mNextVideoAbsolutePath);
+
         Activity activity = getActivity();
         if (null != activity) {
-            Toast.makeText(activity, "Video saved: " + mNextVideoAbsolutePath,
-                    Toast.LENGTH_SHORT).show();
+//            Toast.makeText(activity, "Video saved: " + mNextVideoAbsolutePath,
+//                    Toast.LENGTH_SHORT).show();
             Log.d(TAG, "Video saved: " + mNextVideoAbsolutePath);
         }
         mNextVideoAbsolutePath = null;
-        startPreview();
+//        startPreview();
     }
 
     /**
@@ -878,13 +944,22 @@ public class Camera2VideoFragment extends Fragment
                 public void run() {
                     JSONObject data = (JSONObject) args[0];
                     String username;
-                    String message;
+                    int result;
                     try {
                         username = data.getString("username");
-                        message = data.getString("message");
+                        result = data.getInt("result");
                     } catch (JSONException e) {
                         return;
                     }
+                    final int tempFlag = ((result==1) ? 10:11);
+                    final Handler handlerSuddenImgResult = new Handler();
+                    toggleSuddenImages(tempFlag, 1);
+                    handlerSuddenImgResult.postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            toggleSuddenImages(tempFlag, 0);
+                        }
+                    }, 2000);
 
                     // add the message to view
 //                    addMessage(username, message);
@@ -904,7 +979,7 @@ public class Camera2VideoFragment extends Fragment
             // Set your server page url (and the file title/description)
 //            HttpFileUpload hfu = new HttpFileUpload("https://enigmatic-fortress-49737.herokuapp.com/upload", "my file title","my file description");
 
-            HttpFileUpload hfu = new HttpFileUpload("http://192.168.1.2:5000/upload", "my file title","my file description", new File(filePath));
+            HttpFileUpload hfu = new HttpFileUpload("http://192.168.1.2:5000/upload", "my file title","my file description", new File(filePath), suddenImageId);
 
 //            hfu.Send_Now(fstrm);
             hfu.execute(fstrm);
