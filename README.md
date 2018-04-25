@@ -96,7 +96,7 @@ You are now good to go! Open the app and click the 'Make Payment' Button to test
 ## Authors
 
 * **Rohit Bhaskar** - *Initial work* - [LinkedIn](https://in.linkedin.com/in/rohitb1vs10)
-* **Billie Thompson** - *Initial work* - [LinkedIn](https://www.linkedin.com/in/tanay-shah-74095359)
+* **Tanay Shah** - *Initial work* - [LinkedIn](https://www.linkedin.com/in/tanay-shah-74095359)
 
 ## License
 
