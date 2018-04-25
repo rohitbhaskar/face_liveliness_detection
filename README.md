@@ -29,6 +29,12 @@ Linux Installation:
 https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-16-04
 ```
 
+Android Studio 2+ (preferably 3+)
+
+```
+https://developer.android.com/studio/
+(Their website covers everything)
+```
 
 ### Installing
 
@@ -52,64 +58,47 @@ Run the nodeJS script
 node index.js
 ```
 
-Get into the server directory with the node code
+Open a new terminal/command prompt, and run the following commang to get your device ip
 
 ```
-cd face_liveliness_detection/server/node_server
-```
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
+Windows: ipconfig
+Linux: ifconfig
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
+Open client/android_app inside Android Studio. Go to "Camera2VideoFragment.java".
+Now edit line numbers 122 and 982 with your ip address
 
 ```
-Give an example
+socket = IO.socket("http://192.168.1.2:6000");
+
+HttpFileUpload hfu = new HttpFileUpload("http://192.168.1.2:5000/upload", "my file title","my file description", new File(filePath), suddenImageId);
+
+{your ip adress in place of 192.168.1.2}
 ```
 
-## Deployment
+Install the app in your phone
 
-Add additional notes about how to deploy this on a live system
+```
+Install using apk generated after build
+or
+Connect phone to directly install while android studui builds and runs the app
+```
+
+You are now good to go! Open the app and click the 'Make Payment' Button to test it out.
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+* [NodeJS](https://nodejs.org/) - The web framework used
+* [Android](https://developer.android.com/studio/) - Android App Development
+* [Socket.io](https://socket.io/) - Web sockets for comm
+* [OpenCV](https://opencv.org/) - Image processing library
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Rohit Bhaskar** - *Initial work* - [LinkedIn](https://in.linkedin.com/in/rohitb1vs10)
+* **Billie Thompson** - *Initial work* - [LinkedIn](https://www.linkedin.com/in/tanay-shah-74095359)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) {when its ready :p)} file for details
 
