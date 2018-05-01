@@ -1,3 +1,9 @@
+# ## GIT Files ##
+..gitignore.swp
+
+
+
+
 # Built application files
 *.apk
 *.ap_
