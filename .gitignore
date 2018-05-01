@@ -63,3 +63,7 @@ client/android_app/android-Camera2Video-master/fastlane/Preview.html
 client/android_app/android-Camera2Video-master/fastlane/screenshots
 client/android_app/android-Camera2Video-master/fastlane/test_output
 client/android_app/android-Camera2Video-master/fastlane/readme.md
+
+# Android Studio Application generated files
+client/android_app/android-Camera2Video-master/Application/build/generated/
+client/android_app/android-Camera2Video-master/Application/build/intermediates/
