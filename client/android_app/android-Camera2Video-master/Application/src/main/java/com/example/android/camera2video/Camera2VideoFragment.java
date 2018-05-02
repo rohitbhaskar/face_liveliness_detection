@@ -38,9 +38,7 @@ import android.hardware.camera2.CameraMetadata;
 import android.hardware.camera2.CaptureRequest;
 import android.hardware.camera2.params.StreamConfigurationMap;
 import android.media.MediaRecorder;
-import android.net.Uri;
 import android.os.Bundle;
-import android.os.Environment;
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.support.annotation.NonNull;
@@ -66,9 +64,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.net.HttpURLConnection;
 import java.net.URISyntaxException;
-import java.net.URL;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -119,7 +115,7 @@ public class Camera2VideoFragment extends Fragment
     private Socket socket;
     {
         try{
-            socket = IO.socket("http://192.168.1.2:6000");
+            socket = IO.socket("http://"+App_Constants.server_ip+":6000");
         } catch (URISyntaxException e) {
             e.printStackTrace();
         }
@@ -979,7 +975,7 @@ public class Camera2VideoFragment extends Fragment
             // Set your server page url (and the file title/description)
 //            HttpFileUpload hfu = new HttpFileUpload("https://enigmatic-fortress-49737.herokuapp.com/upload", "my file title","my file description");
 
-            HttpFileUpload hfu = new HttpFileUpload("http://192.168.1.2:5000/upload", "my file title","my file description", new File(filePath), suddenImageId);
+            HttpFileUpload hfu = new HttpFileUpload("http://"+ App_Constants.server_ip+":5000/upload", "my file title","my file description", new File(filePath), suddenImageId);
 
 //            hfu.Send_Now(fstrm);
             hfu.execute(fstrm);
