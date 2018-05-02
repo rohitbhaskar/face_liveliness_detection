@@ -4,6 +4,7 @@ ADDED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/face_livelines
 INJECTED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/face_liveliness_detection/client/android_app/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:17:1-44:12
 INJECTED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/face_liveliness_detection/client/android_app/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:17:1-44:12
 MERGED from [com.android.support:support-v13:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/44241291e188f774484e496c0f6de1ff/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/ed438825a223d5e68c7d8dde7d1e73dc/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-v4:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/5d71d626ac4fc3cd8c8e7e13422615b3/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:cardview-v7:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/3c6775b61602107c6a8e5fd58c456bc3/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/e61c8c3a9577d2cf9807144bfc6864c4/AndroidManifest.xml:17:1-22:12
@@ -11,8 +12,10 @@ MERGED from [com.android.support:support-media-compat:27.0.2] /home/rohitb1vs10/
 MERGED from [com.android.support:support-fragment:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/caeb3b3340f541407f66de63f2458791/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/5b9635d82ad191b63af60e5ed39267ae/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/7574d7be9f70a67e8e7673e29e38890b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/1e504983db7e6702ef4b4862694d6c6b/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/c7c3e350df2af8d5e51c641ecb490546/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/06807ccb0e51399a043c91ded3ce1b76/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/60869e5848f1e18005abccc5962f210f/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/e1900670aa66206653c02d30ceea4dbb/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/97bccac54c7a6f574d9a8a8228f18e45/AndroidManifest.xml:17:1-24:12
 INJECTED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/face_liveliness_detection/client/android_app/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:17:1-44:12
@@ -54,7 +57,7 @@ ADDED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/face_livelines
 	android:allowBackup
 		ADDED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/face_liveliness_detection/client/android_app/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:29:18-44
 	android:theme
-		ADDED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/face_liveliness_detection/client/android_app/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:32:9-45
+		ADDED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/face_liveliness_detection/client/android_app/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:32:9-59
 activity#com.example.android.camera2video.CameraActivity
 ADDED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/face_liveliness_detection/client/android_app/android-Camera2Video-master/Application/src/main/AndroidManifest.xml:34:9-40:20
 	android:label
@@ -77,6 +80,8 @@ INJECTED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/face_liveli
 INJECTED from /home/rohitb1vs10/Competitions/Axis_Bank_Dev_Hack_2018/face_liveliness_detection/client/android_app/android-Camera2Video-master/Application/src/main/AndroidManifest.xml
 MERGED from [com.android.support:support-v13:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/44241291e188f774484e496c0f6de1ff/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v13:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/44241291e188f774484e496c0f6de1ff/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/ed438825a223d5e68c7d8dde7d1e73dc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/ed438825a223d5e68c7d8dde7d1e73dc/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/5d71d626ac4fc3cd8c8e7e13422615b3/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/5d71d626ac4fc3cd8c8e7e13422615b3/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cardview-v7:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/3c6775b61602107c6a8e5fd58c456bc3/AndroidManifest.xml:20:5-44
@@ -91,10 +96,14 @@ MERGED from [com.android.support:support-core-utils:27.0.2] /home/rohitb1vs10/.g
 MERGED from [com.android.support:support-core-utils:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/5b9635d82ad191b63af60e5ed39267ae/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/7574d7be9f70a67e8e7673e29e38890b/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/7574d7be9f70a67e8e7673e29e38890b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/1e504983db7e6702ef4b4862694d6c6b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/1e504983db7e6702ef4b4862694d6c6b/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/c7c3e350df2af8d5e51c641ecb490546/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/c7c3e350df2af8d5e51c641ecb490546/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/06807ccb0e51399a043c91ded3ce1b76/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/06807ccb0e51399a043c91ded3ce1b76/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/60869e5848f1e18005abccc5962f210f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/60869e5848f1e18005abccc5962f210f/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/e1900670aa66206653c02d30ceea4dbb/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.0.2] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/e1900670aa66206653c02d30ceea4dbb/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/rohitb1vs10/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/97bccac54c7a6f574d9a8a8228f18e45/AndroidManifest.xml:20:5-22:41

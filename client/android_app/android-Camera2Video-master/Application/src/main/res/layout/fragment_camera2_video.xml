@@ -25,52 +25,109 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:orientation="vertical"
+        android:background="#fafafa">
+
+        <ImageView android:src="@drawable/ic_action_info"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:layout_marginBottom="100dp"
+            android:layout_gravity="center_horizontal" />
+
+        <!--  Name Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:textColorHint="@color/accent_material_dark">
+            <EditText android:id="@+id/input_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords"
+                android:hint="Name" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Email Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:textColorHint="@color/accent_material_dark">
+            <EditText android:id="@+id/input_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="Email" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Password Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:textColorHint="@color/accent_material_dark">
+            <EditText android:id="@+id/input_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="Password"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Signup Button -->
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/video"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:backgroundTint="@color/accent_material_dark"
+            android:padding="12dp"
+            android:text="@string/payment_button"/>
+
+
+    </LinearLayout>
+
+
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@id/texture"
-        android:background="#e2e2e2">
-
-        <Button
-            android:id="@+id/video"
-            android:layout_width="127dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:background="#f5cf00"
-            android:text="@string/payment_button" />
+        android:layout_below="@id/texture">
 
         <ImageView
             android:id="@+id/suddenImageTopLeft"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:background="@android:color/holo_red_dark"
-            app:srcCompat="@android:color/holo_red_dark" />
+            android:background="@android:color/holo_red_dark"/>
 
         <ImageView
             android:id="@+id/suddenImageTopRight"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_gravity="top|right"
-            android:background="@android:color/holo_red_dark"
-            app:srcCompat="@android:color/holo_red_dark" />
+            android:background="@android:color/holo_red_dark"/>
 
         <ImageView
             android:id="@+id/suddenImageBottomLeft"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_gravity="bottom|left"
-            android:background="@android:color/holo_red_dark"
-            app:srcCompat="@android:color/holo_red_dark" />
+            android:background="@android:color/holo_red_dark"/>
 
         <ImageView
             android:id="@+id/suddenImageBottomRight"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_gravity="bottom|right"
-            android:background="@android:color/holo_red_dark"
-            app:srcCompat="@android:color/holo_red_dark" />
+            android:background="@android:color/holo_red_dark"/>
 
         <TextView
             android:id="@+id/resultTextSuccess"
